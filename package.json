@@ -1,0 +1,15 @@
+{
+    "name": "mada19-tools",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev-server": "./node_modules/local-web-server/bin/cli.js --spa index.html --port 9000"
+    },
+    "devDependencies": {
+        "htmlhint": "*",
+        "local-web-server": "*"
+    },
+    "contributors": [
+        "Grant Heaslip <grant@asl19.org> (https://asl19.org/)"
+    ]
+}

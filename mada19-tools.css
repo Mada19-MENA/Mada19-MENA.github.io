@@ -1,0 +1,172 @@
+html {
+    color: #212121;
+    background: #ffffff;
+    direction: rtl;
+    font-family: 'Droid Arabic Naskh', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    margin: 0em;
+    min-width: 240px;
+    width: 100%;
+    position: relative;
+    float: right;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+}
+body * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    border: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+input, textarea, keygen, select, button {
+    font-size: 1em;
+    font-family: inherit;
+    border-radius: 0px;
+}
+h1, h2, h3, h4, h5 {
+    color: #212121;
+}
+a {
+    color: #1072ba;
+    text-decoration: none;
+}
+
+.centred {
+    display: block;
+    width: 100%;
+    max-width: 50em;
+    min-height: calc(100vh - 32em);
+    margin: 0 auto 1em auto;
+    padding: 1em;
+    overflow: hidden;
+}
+.asl19-link,
+.asl19-link img {
+    display: block;
+}
+.asl19-link {
+    margin: 0 auto 2em auto;
+    overflow: hidden;
+    width: auto;
+    max-width: 14em;
+}
+.asl19-link img {
+    float: right;
+    width: 100%;
+    height: auto;
+}
+#tools {
+    overflow: hidden;
+}
+#tools .title-container {
+    float: right;
+    margin: 0 0 1em 0;
+}
+#tools .unlock-icon {
+    display: block;
+    width: 3em;
+    height: 3em;
+    float: right;
+}
+#tools .title {
+    float: right;
+    color: rgb(0, 155, 216);
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 0 0.5em 0 0;
+}
+#tools table {
+    position: relative;
+    direction: rtl;
+    width: 100%;
+    border-collapse: collapse;
+    float: right;
+}
+#tools td,
+#tools th {
+    height: 3em;
+    line-height: 1em;
+}
+#tools th {
+    color: rgb(0,155,216);
+    font-size: 1.25em;
+    font-weight: normal;
+}
+#tools tbody tr:nth-child(odd) {
+    background-color: rgb(245, 245, 245);
+}
+
+#tools .name {
+    text-align: right;
+    padding-right: 0.5em;
+}
+#tools th.name {
+    text-indent: -9999px;
+}
+#tools .windows,
+#tools .android,
+#tools .osx,
+#tools .linux,
+#tools .chrome,
+#tools .firefox {
+    text-align: center;
+    width: 6em;
+}
+#tools .firefox {
+    display: none;
+}
+html.firefox #tools .chrome {
+    display: none;
+}
+html.firefox #tools .firefox {
+    display: table-cell;
+}
+#tools .email {
+    text-align: left;
+}
+td.email a {
+    padding: 0;
+}
+#tools td img {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.25em;
+}
+@media (max-width: 579px) {
+    #tools {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 439px) {
+    #tools {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 359px) {
+    #tools {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 300px) {
+    #tools .windows,
+    #tools .osx,
+    #tools .linux,
+    #tools .chrome,
+    #tools .firefox {
+        display: none !important;
+    }
+    #tools {
+        max-width: 150px;
+    }
+}
