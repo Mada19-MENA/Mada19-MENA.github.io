@@ -115,11 +115,11 @@ a {
     text-indent: -9999px;
 }
 #tools .windows,
-#tools .android,
 #tools .osx,
 #tools .linux,
-#tools .chrome,
-#tools .firefox {
+#tools .android,
+#tools .iphone,
+#tools .winphone {
     text-align: center;
     width: 6em;
 }
@@ -162,8 +162,9 @@ td.email a {
     #tools .windows,
     #tools .osx,
     #tools .linux,
-    #tools .chrome,
-    #tools .firefox {
+    #tools .android,
+    #tools .iphone ,
+    #tools .winphone {
         display: none !important;
     }
     #tools {
