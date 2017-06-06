@@ -119,7 +119,10 @@ a {
 #tools .linux,
 #tools .android,
 #tools .iphone,
-#tools .winphone {
+#tools .winphone,
+#tools .chrome,
+#tools .firefox
+{
     text-align: center;
     width: 6em;
 }
@@ -164,7 +167,9 @@ td.email a {
     #tools .linux,
     #tools .android,
     #tools .iphone ,
-    #tools .winphone {
+    #tools .winphone,
+    #tools .chrome,
+    #tools .firefox{
         display: none !important;
     }
     #tools {
